@@ -1,4 +1,3 @@
-// 🚀 Part 1: Variables + Conditionals
 let userName = "Student";
 let age = 18;
 
@@ -8,7 +7,6 @@ if (age >= 18) {
   console.log(userName + " is not an adult.");
 }
 
-// 🚀 Part 2: Functions
 function greet(name) {
   return "Hello, " + name + "!";
 }
@@ -17,7 +15,6 @@ function addNumbers(a, b) {
   return a + b;
 }
 
-// 🚀 Part 3: Loops
 let items = ["Apple", "Banana", "Mango"];
 let list = document.getElementById("list");
 for (let i = 0; i < items.length; i++) {
@@ -26,7 +23,6 @@ for (let i = 0; i < items.length; i++) {
   list.appendChild(li);
 }
 
-// 🚀 Part 4: DOM Manipulation
 document.getElementById("greetBtn").addEventListener("click", function() {
   document.getElementById("greeting").textContent = greet(userName);
 });
@@ -40,3 +36,4 @@ document.getElementById("addBtn").addEventListener("click", function() {
 document.getElementById("toggleBtn").addEventListener("click", function() {
   document.getElementById("toggleText").classList.toggle("highlight");
 });
+
